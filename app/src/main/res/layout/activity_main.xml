@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/image1"
+                android:layout_width="218dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/asm" />
+
+            <ImageView
+                android:id="@+id/image2"
+                android:layout_width="215dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/c" />
+
+            <ImageView
+                android:id="@+id/image3"
+                android:layout_width="204dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/cpp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/image4"
+                android:layout_weight="1"
+                android:src="@drawable/java" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/image5"
+                android:layout_weight="1"
+                android:src="@drawable/python" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/image6"
+                android:layout_weight="1"
+                android:src="@drawable/go" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnVoteEnd"
+            android:text="투표 종료" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
