@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
         int []imageId = {R.id.image1, R.id.image2, R.id.image3, R.id.image4, R.id.image5, R.id.image6 };
 
-        final String[] imgName = {"asm", "c", "cpp", "java", "python", "gp"};
+        final String[] imgName = {"asm", "c", "cpp", "java", "python", "go"};
 
         for (int i = 0; i < votecount.length; i++) {
             final int index;
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
                     Intent sendIntent = new Intent(getApplicationContext(), ResultActivity.class);
-                    sendIntent.putExtra("imgName", image);
+                    sendIntent.putExtra("imgName", imgName);
                     sendIntent.putExtra("voteCount", votecount);
                     startActivity(sendIntent);
                 }
