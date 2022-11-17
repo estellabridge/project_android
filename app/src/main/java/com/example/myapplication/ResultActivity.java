@@ -24,7 +24,7 @@ public class ResultActivity extends AppCompatActivity {
         TextView[] tv = new TextView[voteCount.length];
         RatingBar[] rBar = new RatingBar[voteCount.length];
 
-        int[] tvId = {R.id.tv01, R.id.tv02, R.id.tv03, R.id.tv04, R.id.tv05, R.id.tv06};
+        int[] tvId = {R.id.tv01, R.id.tv02, R.id.tv03, R.id.tv04, R.id.tv05, R.id.tv06, };
         int[] rBarId = {R.id.rBar01, R.id.rBar02, R.id.rBar03, R.id.rBar04, R.id.rBar05, R.id.rBar06};
 
         for (int i = 0; i < tv.length; i++) {
