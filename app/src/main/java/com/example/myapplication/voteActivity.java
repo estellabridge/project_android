@@ -14,7 +14,9 @@ public class voteActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.vote_page);
+
+
 
         final int[] votecount = new int[12];
 
