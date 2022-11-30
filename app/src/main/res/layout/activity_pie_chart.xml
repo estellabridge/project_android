@@ -26,7 +26,7 @@
             android:id="@+id/btnEnd"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:text="끝내기" />
+            android:text="이전" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
