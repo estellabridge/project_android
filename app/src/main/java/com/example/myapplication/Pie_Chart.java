@@ -26,17 +26,13 @@ public class Pie_Chart extends AppCompatActivity {
         PieChart pieChart = findViewById(R.id.pieChart);
 
         Intent receiveIntent = getIntent();
-        int[] voutCount = receiveIntent.getIntArrayExtra("voteCount");
+        int[] voteCount = receiveIntent.getIntArrayExtra("voteCount");
         String[] imgName = receiveIntent.getStringArrayExtra("imgName");
 
         ArrayList<PieEntry> languages = new ArrayList<>();
-        for (int i = 0; i < voutCount.length; i++) {
-            if (voutCount[i] == 0) {
-                i = i+1;
-            }
-            else {
-                languages.add(new PieEntry((float) voutCount[i], imgName[i]));
-            }
+        for (int i = 0; i < voteCount.length; i++) {
+            if (voteCount[i] == 0) i += 0.5;
+            else languages.add(new PieEntry((float) voteCount[i], imgName[i]));
         }
 
         PieDataSet pieDataSet = new PieDataSet(languages, "languages");
