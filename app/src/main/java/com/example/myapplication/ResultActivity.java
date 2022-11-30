@@ -41,5 +41,16 @@ public class ResultActivity extends AppCompatActivity {
                 finish();
             }
         });
+
+        Button btnPieChart = (Button) findViewById(R.id.btnPieChart);
+        btnPieChart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent sendIntent = new Intent(getApplicationContext(), Pie_Chart.class);
+                sendIntent.putExtra("imgName", imgName);
+                sendIntent.putExtra("voteCount", voteCount);
+                startActivity(sendIntent);
+            }
+        });
     }
 }
