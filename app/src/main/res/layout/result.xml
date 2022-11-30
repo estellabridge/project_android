@@ -23,9 +23,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="1dp"
-            android:layout_weight="0"
             android:background="#FF0000"
-            android:padding="5dp">
+            android:layout_weight="1"
+            android:padding="10dp"
+            >
 
             <TextView
                 android:layout_width="wrap_content"
@@ -49,8 +50,8 @@
         <TableRow
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="#FFFFFF">
+            android:background="#FFFFFF"
+            android:layout_weight="1">
 
             <TextView
                 android:id="@+id/tv01"
@@ -58,19 +59,19 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="TextView"
-                android:textSize="25dp" />
+                android:textSize="20dp" />
 
             <RatingBar
                 android:id="@+id/rBar01"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </TableRow>
 
         <TableRow
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#FFFFFF">
+            android:background="#FFFFFF"
+            android:layout_weight="1">
 
             <TextView
                 android:id="@+id/tv02"
@@ -78,7 +79,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="TextView"
-                android:textSize="25dp" />
+                android:textSize="20dp" />
 
             <RatingBar
                 android:id="@+id/rBar02"
@@ -88,9 +89,9 @@
 
         <TableRow
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#FFFFFF">
+            android:layout_height="17dp"
+            android:background="#FFFFFF"
+            android:layout_weight="1">
 
             <TextView
                 android:id="@+id/tv03"
@@ -98,7 +99,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="TextView"
-                android:textSize="25dp" />
+                android:textSize="20dp" />
 
             <RatingBar
                 android:id="@+id/rBar03"
@@ -109,8 +110,8 @@
         <TableRow
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#FFFFFF">
+            android:background="#FFFFFF"
+            android:layout_weight="1">
 
             <TextView
                 android:id="@+id/tv04"
@@ -118,7 +119,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="TextView"
-                android:textSize="25dp" />
+                android:textSize="20dp" />
 
             <RatingBar
                 android:id="@+id/rBar04"
@@ -129,8 +130,8 @@
         <TableRow
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#FFFFFF">
+            android:background="#FFFFFF"
+            android:layout_weight="1">
 
             <TextView
                 android:id="@+id/tv05"
@@ -138,7 +139,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="TextView"
-                android:textSize="25dp" />
+                android:textSize="20dp" />
 
             <RatingBar
                 android:id="@+id/rBar05"
@@ -149,8 +150,8 @@
         <TableRow
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#FFFFFF">
+            android:background="#FFFFFF"
+            android:layout_weight="1">
 
             <TextView
                 android:id="@+id/tv06"
@@ -158,7 +159,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="TextView"
-                android:textSize="25dp" />
+                android:textSize="20dp" />
 
             <RatingBar
                 android:id="@+id/rBar06"
@@ -169,8 +170,8 @@
         <TableRow
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#FFFFFF">
+            android:background="#FFFFFF"
+            android:layout_weight="1">
 
             <TextView
                 android:id="@+id/tv07"
@@ -178,7 +179,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="TextView"
-                android:textSize="25dp" />
+                android:textSize="20dp" />
 
             <RatingBar
                 android:id="@+id/rBar07"
@@ -189,8 +190,8 @@
         <TableRow
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#FFFFFF">
+            android:background="#FFFFFF"
+            android:layout_weight="1">
 
             <TextView
                 android:id="@+id/tv08"
@@ -198,7 +199,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="TextView"
-                android:textSize="25dp" />
+                android:textSize="20dp" />
 
             <RatingBar
                 android:id="@+id/rBar08"
@@ -209,8 +210,8 @@
         <TableRow
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#FFFFFF">
+            android:background="#FFFFFF"
+            android:layout_weight="1">
 
             <TextView
                 android:id="@+id/tv09"
@@ -218,7 +219,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="TextView"
-                android:textSize="25dp" />
+                android:textSize="20dp" />
 
             <RatingBar
                 android:id="@+id/rBar09"
@@ -229,8 +230,8 @@
         <TableRow
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#FFFFFF">
+            android:background="#FFFFFF"
+            android:layout_weight="1">
 
             <TextView
                 android:id="@+id/tv10"
@@ -238,7 +239,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="TextView"
-                android:textSize="25dp" />
+                android:textSize="20dp" />
 
             <RatingBar
                 android:id="@+id/rBar10"
@@ -249,8 +250,8 @@
         <TableRow
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#FFFFFF">
+            android:background="#FFFFFF"
+            android:layout_weight="1">
 
             <TextView
                 android:id="@+id/tv11"
@@ -258,7 +259,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="TextView"
-                android:textSize="25dp" />
+                android:textSize="20dp" />
 
             <RatingBar
                 android:id="@+id/rBar11"
@@ -269,8 +270,8 @@
         <TableRow
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#FFFFFF">
+            android:background="#FFFFFF"
+            android:layout_weight="1">
 
             <TextView
                 android:id="@+id/tv12"
@@ -278,7 +279,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="TextView"
-                android:textSize="25dp" />
+                android:textSize="20dp" />
 
             <RatingBar
                 android:id="@+id/rBar12"
@@ -289,8 +290,8 @@
         <TableRow
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#FFFFFF">
+            android:background="#FFFFFF"
+            android:layout_weight="1">
 
             <Button
                 android:id="@+id/button"
@@ -303,8 +304,8 @@
         <TableRow
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#FFFFFF">
+            android:background="#FFFFFF"
+            android:layout_weight="1">
 
             <Button
                 android:id="@+id/btnPieChart"
