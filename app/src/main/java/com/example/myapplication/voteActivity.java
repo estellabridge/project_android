@@ -27,7 +27,7 @@ public class voteActivity extends AppCompatActivity {
 
         int []imageId = {R.id.image1, R.id.image2, R.id.image3, R.id.image4, R.id.image5, R.id.image6, R.id.image7, R.id.image8, R.id.image9, R.id.image10, R.id.image11, R.id.image12 };
 
-        final String[] imgName = {"asm", "c", "cpp", "java", "python", "go", "c#", "rust", "java script", "php", "ruby", "visual basic"};
+        final String[] imgName = {"ASM", "C", "C++", "Java", "Python", "Go", "C#", "Rust", "Java Script", "PHP", "Ruby", "Visual Basic"};
 
         for (int i = 0; i < votecount.length; i++) {
             final int index;
