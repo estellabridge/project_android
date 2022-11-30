@@ -300,5 +300,19 @@
                 android:layout_span="2"
                 android:text="돌아가기" />
         </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btnPieChart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:text="차트 보기" />
+        </TableRow>
     </TableLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
