@@ -7,9 +7,9 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/vote"
         android:label="프로그래밍 언어 투표"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/vote_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
