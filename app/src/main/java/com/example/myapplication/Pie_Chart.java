@@ -31,7 +31,12 @@ public class Pie_Chart extends AppCompatActivity {
 
         ArrayList<PieEntry> languages = new ArrayList<>();
         for (int i = 0; i < voutCount.length; i++) {
-            languages.add(new PieEntry((float) voutCount[i], imgName[i]));
+            if (voutCount[i] == 0) {
+                i = i+1;
+            }
+            else {
+                languages.add(new PieEntry((float) voutCount[i], imgName[i]));
+            }
         }
 
         PieDataSet pieDataSet = new PieDataSet(languages, "languages");
